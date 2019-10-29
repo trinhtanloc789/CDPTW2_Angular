@@ -1,0 +1,50 @@
+@font-face {
+  font-family: Poppins;
+  src: url(./assets/font/Poppins-Regular.ttf);
+}
+
+.type-15 {
+  font-family: Poppins;
+  background-image: url("./assets/images/15-1.png");
+  color: #ffffff;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.type-15 .rize p {
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.type-15 .rize p img {
+  width: 55px;
+}
+
+.type-15 .rexbin {
+  display: flex;
+  width: 100%;
+  justify-content: center !important;
+}
+
+.type-15 .rexbin .rexcol {
+  width: 25%;
+}
+
+.type-15 .rexbin .rexcol .number {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  .col-md-6 {
+    display: inline-block;
+    text-align: center;
+  }
+  .rexbin {
+    flex-direction: column;
+    align-items: center;
+  }
+}

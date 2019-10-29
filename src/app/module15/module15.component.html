@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Module 15</title>
+</head>
+
+<body>
+    <div class="type-15">
+        <div class="container">
+            <div class="rize">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p><img [src]="imgcheck" alt=""> {{title}}
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-md-9">
+                <div  class="rexbin">
+                    <div  *ngFor = "let word of arrNum" class="rexcol">
+                        <div  class="number">
+                            {{word.num}}
+                        </div>
+                        <div class="cmt-num">
+                            {{word.cmt}}
+                        </div>
+                    </div>
+                    <!-- <div class="rexcol">
+                        <div class="number">
+                            100
+                        </div>
+                        <div class="cmt-num">
+                            TOURS
+                        </div>
+                    </div>
+                    <div class="rexcol">
+                        <div class="number">
+                            47
+                        </div>
+                        <div class="cmt-num">
+                            PACKAGES
+                        </div>
+                    </div>
+                    <div class="rexcol">
+                        <div class="number">
+                            10
+                        </div>
+                        <div class="cmt-num">
+                            SERVICES
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
